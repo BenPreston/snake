@@ -1,0 +1,39 @@
+$primary: #AF1E2D;
+$secondary: #FFCE00;
+$dark: #171717;
+$light: #F3F3F3;
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    background: linear-gradient(top left, $primary 50%, $secondary 50%);
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+
+
+    
+    canvas {
+        background-color: $dark;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 72px;
+
+        &.bottom {
+            color: $light;
+            text-align: right;
+        }
+    }
+
+    canvas {
+        background: $dark;
+        border: 3px solid $light;
+        box-shadow: 4px 4px 12px 0px transparentize($color: $dark, $amount: 0.7);
+    }
+}
