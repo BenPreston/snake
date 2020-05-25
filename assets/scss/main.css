@@ -11,8 +11,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 0px;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #AF1E2D), color-stop(50%, #FFCE00));
-  background: linear-gradient(top left, #AF1E2D 50%, #FFCE00 50%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #0812a1), color-stop(50%, #2C8C99));
+  background: linear-gradient(top left, #0812a1 50%, #2C8C99 50%);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

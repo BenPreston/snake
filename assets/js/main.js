@@ -1,8 +1,8 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-let primary = "#AF1E2D";
-let secondary = "#FFCE00";
+let primary = "#2C8C99";
+let secondary = "#0812a1";
 let white = '#F3F3F3';
 
 const grid = 32;
